@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header{
+            display: flex;
+            /* grid-template-columns: 4fr 4fr 4fr; */
+            /* margin-top: 20px; */
+            font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+        }
+        .Web-name{
+            font-size: x-large;
+            margin-left: 130px;
+            margin-right: 200px;
+            margin-top: 12px;
+            color: rgb(51,94, 234);
+            font-weight: bolder;
+        }
+        .nav{
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+            margin-top: 15px;
+            color: grey;
+        }
+        .buy{
+            /* justify-content: center; */
+            text-align: center;
+            /* margin-top: 5px; */
+            /* margin-left: 140px; */
+        }
+        .ye{
+            height: 40px;
+            width: 100px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            border: none;
+            background-color:rgb(51,94, 234);
+            color: white;
+            font-size: 15px;
+            margin-left: 180px;
+        }
+        .ye:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        section{
+            margin-left: 127px;
+            /* margin-top: 40px; */
+            display: grid;
+            grid-template-columns: 5fr 7fr;
+            font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+        }
+        .con{
+            margin-top: 60px;
+        }
+        .welcome{
+            font-size: 40px;
+            font-weight: lighter;
+            white-space: 50px;
+            margin-top: 50px;
+        }
+        #landkit{
+            color:rgb(51,94, 234) ;
+        }
+        .light{
+            margin-top: 15px;
+            font-weight: lighter;
+            color: rgb(163, 154, 154);
+        }
+        .bu{
+            margin-top: 40px; 
+        }
+        .bu:hover{
+            transform: scale(1.01);
+            cursor: pointer;
+        }
+        button{
+            height: 40px;
+            font-size: 12px;
+            text-align: center;
+            background-color:rgb(51,94, 234) ;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            width: 120px;
+        }
+        #button2{
+            background-color: rgb(182, 203, 210);
+            color: blue;
+        }
+        img{
+            margin-right: 10px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="Web-name">Landkit.</div>
+        <div class="nav">
+            <div>Landings</div>
+            <div>Pages</div>
+            <div>Account</div>
+            <div>Documentation</div>
+        </div>
+        <div class="buy"><button class="ye">Buy now</button></div>
+    </header>
+    <section>
+        <div class="con"><div class="welcome">Welcome to <span  id="landkit">Landkit.</span><br>
+            Develop anything.</div>
+        <div class="light">Build a beautiful, modern website with flexible<br>Bootstrap components built from scratch.</div>
+        <div class="bu"><button>View all page&nbsp;&nbsp;&nbsp;<span class="bi bi-arrow-right"></span></button>&nbsp;&nbsp;&nbsp;&nbsp;<button id="button2">Documentation <span></span></button></div></div>
+        <img src="/MYNTRA/SRC/LANDKIT/public/h.png" align="right" width="550px" height="350px">
+    </section>
+</body>
+</html>

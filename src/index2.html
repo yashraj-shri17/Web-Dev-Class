@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #f8f8f8;
+            border-bottom: 1px solid #ddd;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+        }
+        .top-bar {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .category {
+            position: relative;
+            width: 30%;
+        }
+        .category img {
+            width: 100%;
+            height: auto;
+        }
+        .category-title {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Shopper.</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Catalog</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Docs</a></li>
+        </ul>
+        <div>
+            <button>Add to cart $49.00</button>
+        </div>
+    </header>
+    <div class="top-bar">HAPPY HOLIDAY DEALS ON EVERYTHING</div>
+    <div class="categories">
+        <div class="category">
+            <img src="https://via.placeholder.com/300x400?text=Women" alt="Women">
+            <div class="category-title">Women</div>
+        </div>
+        <div class="category">
+            <img src="https://via.placeholder.com/300x400?text=Men" alt="Men">
+            <div class="category-title">Men</div>
+        </div>
+        <div class="category">
+            <img src="https://via.placeholder.com/300x400?text=Kids" alt="Kids">
+            <div class="category-title">Kids</div>
+        </div>
+    </div>
+</body>
+</html>

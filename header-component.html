@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- ! This is for linking the icons through Bootstrap 
+     ! If we don't write rel = "stylesheet" we won't get it -->
+    <title>Fashion Store</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header { 
+            display: flex ;
+            justify-content: space-around;
+            font-family:  sans-serif;
+            font-weight: bold;
+            padding: 15px;
+        }
+        .cart-name{
+            background-color: red;
+            color: white;
+            display: inline-block;
+            text-align: center;
+            height: 21px;
+            border-width: 1px;
+            border-radius: 100%;
+            padding: 2px 6px;
+            position: relative;
+            top: -10px;
+            right: 10px;
+        }
+        nav span{
+            padding: 15px;
+        }
+        .shopper-title{
+            font-weight: bold;
+            font-size:x-large;
+
+        }
+        .bi-lightning-charge-fill{
+            color: gold;
+        }
+        article{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 7px;
+            font-size: smaller;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        footer{
+            background-color: rgb(31,31,31);
+            padding: 10px;
+            bottom: 0;
+            color: rgb(106, 152, 186);
+        }
+        section{
+            height: 500px;
+        }
+        #footer-1{
+        ;
+        }
+        .space{
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 150px;
+            margin-top: 250px;
+        }
+        ol{
+            list-style: none;
+            color: RGB(106, 152, 186);
+        }
+        .first{
+            margin-bottom: 15px;
+            color: rgb(230, 228, 228);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="shopper-title">Shopper.</div>
+        </div>
+        <div>
+            <nav>
+                <span>Home</span>
+                <span>Catalog</span>
+                <span>Shop</span>
+                <span>Pages</span>
+                <span>Blog</span>
+                <span>Docs</span>
+            </nav>
+        </div>
+        <div>
+            <nav>
+                <span class="bi bi-search"></span>
+                <span class="bi bi-person"></span>
+                <span class="bi bi-heart"></span>
+                <span class="bi bi-cart"><span class="cart-name"><small>2</small></span></span>
+            </nav>
+        </div>
+    </header>
+    
+    <article>
+        <span class="bi bi-lightning-charge-fill"></span>
+        <span>HAPPY HOLIDAY DEALS ON EVERYTHING</span>
+        <span class="bi bi-lightning-charge-fill"></span>
+    </article>
+    <section>
+
+    </section>
+    <footer>
+        <div class="space">
+        <div></div>
+        <div>
+            <ol>
+                <li class="first">SUPPORT</li>
+                <li>Contact Us</li>
+                <li>FAQs</li>
+                <li>Size Guide</li>
+                <li>Shipping & Returns</li>
+                
+            </ol>
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    </footer>
+</body>
+</html>
